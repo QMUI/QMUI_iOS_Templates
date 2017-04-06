@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>QMUI iOS 框架的基础类</string>
+	<key>Summary</key>
+	<string>QMUI iOS 框架的基础类</string>
+	<key>SortOrder</key>
+	<string>0</string>
+	<key>DefaultCompletionName</key>
+	<string>MyClass</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>cocoaTouchSubclass</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Name</key>
+			<string>Subclass of:</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Type</key>
+			<string>class</string>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>FallbackHeader</key>
+			<string>#import &lt;QMUIKit/QMUIKit.h&gt;</string>
+			<key>Values</key>
+			<array>
+				<string>QMUICommonViewController</string>
+				<string>QMUICommonTableViewController</string>
+				<string>QMUINavigationController</string>
+				<string>QMUITabBarViewController</string>
+				<string>QMUIPopupContainerView</string>
+				<string>QMUITableViewCell</string>
+				<string>UIView</string>
+			</array>
+			<key>Suffixes</key>
+			<dict>
+				<key>QMUICommonViewController</key>
+				<string>ViewController</string>
+				<key>QMUICommonTableViewController</key>
+				<string>TableViewController</string>
+				<key>QMUINavigationController</key>
+				<string>NavigationController</string>
+				<key>QMUITabBarViewController</key>
+				<string>TabBarViewController</string>
+				<key>QMUIPopupContainerView</key>
+				<string>PopupView</string>
+				<key>QMUITableViewCell</key>
+				<string>TableViewCell</string>
+				<key>UIView</key>
+				<string>View</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
