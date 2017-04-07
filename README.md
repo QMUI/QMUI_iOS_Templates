@@ -16,3 +16,5 @@ sudo git clone https://github.com/QMUI/QMUI_iOS_Templates.git QMUI\ Class.xctemp
 ```
 
 无需重启 Xcode，直接新建文件，即可看到“QMUI Class”的模板可供选择。
+
+![](https://cloud.githubusercontent.com/assets/1190261/24793746/c1dff3e2-1bb5-11e7-985d-518c3cd9bcf7.png)
