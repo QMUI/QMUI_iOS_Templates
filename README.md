@@ -9,9 +9,8 @@
 cd /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/File\ Templates/Source
 ```
 
-将项目拉取下来，并命名为 `QMUI Class.xctemplate`（文件夹名自由定义，后缀名不可变）：
-```
-# 由于这个目录是系统目录，需要 root 权限才能修改，所以所有命令都请加上 sudo
+将项目拉取下来，并命名为 `QMUI Class.xctemplate`（文件夹名自由定义，后缀名不可变），注意这个目录是系统目录，需要 root 权限才能修改，所以所有 git 命令都需要加 `sudo`。
+```bash
 sudo git clone https://github.com/QMUI/QMUI_iOS_Templates.git QMUI\ Class.xctemplate
 ```
 
