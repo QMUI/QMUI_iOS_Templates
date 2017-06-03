@@ -19,8 +19,14 @@
     // init 时做的事情请写在这里
 }
 
+- (void)initTableView {
+    [super initTableView];
+    // 对 self.tableView 的操作写在这里
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    // 对 self.view 的操作写在这里
 }
 
 - (void)viewWillAppear:(BOOL)animated {
