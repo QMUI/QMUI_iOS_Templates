@@ -14,8 +14,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (void)didInitialized {
-    [super didInitialized];
+- (void)didInitializedWithStyle:(UITableViewStyle)style {
+    [super didInitializedWithStyle:style];
     // init 时做的事情请写在这里
 }
 
