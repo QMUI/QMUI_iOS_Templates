@@ -10,11 +10,9 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        // init 时做的事情请写在这里
-    }
-    return self;
+- (void)didInitializeWithStyle:(UITableViewCellStyle)style {
+    [super didInitializeWithStyle:style];
+    // init 时做的事情请写在这里
 }
 
 - (void)updateCellAppearanceWithIndexPath:(NSIndexPath *)indexPath {

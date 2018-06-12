@@ -10,8 +10,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (void)didInitialized {
-    [super didInitialized];
+- (void)didInitialize {
+    [super didInitialize];
     // init 时做的事情请写在这里，subview 请添加到 self.contentView 上
 }
 

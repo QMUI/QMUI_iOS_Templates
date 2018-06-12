@@ -14,8 +14,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (void)didInitialized {
-    [super didInitialized];
+- (void)didInitialize {
+    [super didInitialize];
     // init 时做的事情请写在这里
 }
 
@@ -49,8 +49,8 @@
     [super viewDidLayoutSubviews];
 }
 
-- (void)setNavigationItemsIsInEditMode:(BOOL)isInEditMode animated:(BOOL)animated {
-    [super setNavigationItemsIsInEditMode:isInEditMode animated:animated];
+- (void)setupNavigationItems {
+    [super setupNavigationItems];
     self.title = @"<##>";
 }
 
